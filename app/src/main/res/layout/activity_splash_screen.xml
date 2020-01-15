@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:src="@android:color/darker_gray"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:text="Splash, RecyclerView, SQLite and Maharaj"
+        android:textSize="24sp"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
